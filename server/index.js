@@ -39,7 +39,7 @@ app.use("/api/payment", paymentRoute);
 app.use("/api/auth", authRoute);
 
 app.get("/", (req, res) => {
-  res.send("Hello From Walsawangikarurban 1");
+  res.send("Hello From Chiplunurbunmultipurposenidhi");
 });
 
 // const port = process.env.PORT || 8383;

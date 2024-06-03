@@ -47,8 +47,8 @@ app.get("/", (req, res) => {
 //   console.log(`SERVER IS RUNNING ON http://localhost:${port}`);
 // });
 
-const PORT = 8383;
-const appInProduction = false;
+const PORT = 8484;
+const appInProduction = true;
 if (!appInProduction) {
   app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT} ✅`);
